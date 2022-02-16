@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="son">
+        <div class="son1">
+            <h2>1re Número</h2>
+            <input type="text" id="num1" name="num1">    
+        </div>
+        <div class="son1">
+            <h2>2do Número</h2>
+            <input type="text" id="num2" name="num2">
+        </div>
+        
+    </div>
+
+    <div class="son">
+        <div class="son2">
+            <h3> Hallar el menor de dos números enteros positivos</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/2039/2039128.png" alt="">
+            <br>
+            <button type="button" id="boton-menor" onclick="hallarNumeroMenor()">Mostrar resultado</button>
+        </div>
+
+        <div class="son2">
+            <h3> Determinr si los números ingresados son iguales</h3>
+            <img src="https://cdn-icons.flaticon.com/png/512/2039/premium/2039146.png?token=exp=1644892185~hmac=a9d04be7fd689b89561d161fb08d4a50" alt="">
+            <br>
+            <button type="button" id="boton-igual" onclick="numerosIguales()">Mostrar resultado</button>
+        </div>
+
+        <div class="son2">
+            <h3> Intercambiar los valores de los dos números</h3>
+            <img src="https://cdn-icons.flaticon.com/png/512/2039/premium/2039134.png?token=exp=1644892226~hmac=e427e3f131a81c52726e7226bb973279" alt="">
+            <br>
+            <button type="button" id="boton-intercambiar" onclick="intercambiarNumeros()">Mostrar resultado</button>
+            <!--<input type="button" id="boton-intercambiar" name="boton-intercambiar" value="Mostrar resultado">-->
+        </div>
+        
+        <div class="son2">
+            <h3> Sumar los dos números</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/2039/2039124.png" alt="">
+            <br>
+            <button type="button" id="boton-sumar" onclick="sumar()">Mostrar resultado</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/hallarNumeroMenor.js"></script>
+<script src="js/numerosIguales.js"></script>
+<script src="js/intercambiarNumeros.js"></script>
+<script src="js/sumarNumeros.js"></script>
+    
+</body>
+</html>

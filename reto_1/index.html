@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tarea 1</title>
+  </head>
+  <body>
+    <div class="container">
+        <form id="my-form">
+      <div>
+        <h1>Calculadora de Propinas</h1>
+
+          <h2>Total de la cuenta</h2>
+          <input type="text" id="box-cuenta" placeholder="$ " />
+
+          <h2>Porcentaje de la cuenta</h2>
+          <input type="text" id="box-propina" placeholder="% " />
+          <br />
+          <br />
+
+        <button type="button" id="boton" onclick="calcularTotalCuenta()">
+          Calcular
+        </button>
+        <input type="button" id="boton" onclick="limpiarFormulario()" value="Limpiar">
+    </form>
+    </div>
+
+      <h2>-------------------- Resumen --------------------</h2>
+
+      <div class="son">
+        <div class="son2">
+          <img
+            src="https://i.pinimg.com/originals/61/85/67/618567dbad85a15293ba0e40aab619da.jpg"
+            alt=""
+            width="150px"
+          />
+        </div>
+        <div class="son2">
+          <h3>Total de la cuenta: $ <span id="valor-cuenta"></span></h3>
+
+          <h3>Propina: $ <span id="propina-total"></span></h3>
+
+          <h3 class="valor-total">
+            Total a pagar: $ <span id="valor-cuenta-total"></span>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

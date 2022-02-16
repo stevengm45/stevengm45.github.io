@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    width: 100px;
+}
+
+input {
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: black solid 2px;
+}
+.son {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.son1{
+    margin: 0px 30px;
+    color: black;
+}
+
+.son2 {
+    background-color: #06283f  ;
+    margin: 30px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 25px;
+}
+button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 25px;
+    background-color: #62B7EE ;
+    color: black;
+    font-size: 15px;
+    border: #62B7EE  solid 1px;
+}
