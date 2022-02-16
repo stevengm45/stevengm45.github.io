@@ -40,3 +40,9 @@ button {
     font-size: 15px;
     border: #62B7EE  solid 1px;
 }
+
+.home{
+    background-color: #06283f;
+    padding: 15px;
+    border-radius: 25px;
+}
