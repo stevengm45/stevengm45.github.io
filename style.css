@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+h1 {
+    padding-top: 40px;
+}
+.container{
+    margin: 0px 100px ;
+}
+.son1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.son2 {
+    background-color: rgb(5, 5, 22);
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+img{
+    width: 100px;
+}
